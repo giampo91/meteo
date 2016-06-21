@@ -1,0 +1,105 @@
+html, body{
+  height: 100%;
+  font-family: 'Helvetica', sans-serif;
+  color: #fff;
+  overflow: hidden;
+  background: #000;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-12{
+  padding: 0;
+}
+
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app section {
+  display: none;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  display: table;
+  width: 90%;
+  height: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.content > div {
+  /* vertically align <div> inside <section> */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* WEATHER  */
+#weather{
+  padding-top: 20%;
+}
+
+#today{
+  height: 100%;
+  padding:0px;
+}
+
+#icona-oggi{
+    /*border:5px solid red;*/
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 200px;
+}
+
+
+.temp{
+  text-align: left;
+  font-size: 7em;
+  font-weight: 100;
+  position: relative;
+  letter-spacing: -2px;
+  height: 200px;
+  color: #fff;
+  vertical-align:middle;
+  line-height: 200px;
+}
+
+.city{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 600;
+  position: relative;
+  height: 200px;
+
+}
+
+.testo{
+  padding-top: 100px;
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1em;
+  color: #FFF;
+  text-align: center;
+}
+
+.weather4{
+  background:url("sfond4.jpg")
+}
+
+/* INFO SECTION  */
+
+section#loading{
+  text-align: center;
+}
+
+#loading-message{
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+@import 'variables';
